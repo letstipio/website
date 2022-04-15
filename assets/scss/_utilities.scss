@@ -1,0 +1,32 @@
+@import'variables';
+@import 'function';
+
+*{  
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: transparent;
+}
+.text_low_color{
+    color: rgba(230, 219, 219, 0.849);
+}
+.btn_gradient{
+    width: 104px;
+    height: 33px;
+    cursor: pointer;
+    @include border-radios(5px);
+    background: $btn-bg-color;
+    color: #fff;
+    font-size: 15px;
+}
