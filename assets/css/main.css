@@ -133,13 +133,31 @@ a {
         font-size: 18px; }
       .main .body-sec .input_sec form input[type="text"] {
         height: 76px; }
+        .main .body-sec .input_sec form input[type="text"]:focus {
+          border: 2px solid transparent !important;
+          border-image: linear-gradient(to right, #EE4878 100%, #7248EE 100%) !important;
+          border-image-slice: 1 !important;
+          color: #48B2EE;
+          outline: none !important; }
       .main .body-sec .input_sec form textarea {
         height: 157px; }
+        .main .body-sec .input_sec form textarea:focus {
+          border: 2px solid transparent !important;
+          border-image: linear-gradient(to right, #EE4878 100%, #7248EE 100%) !important;
+          border-image-slice: 1 !important;
+          color: #48B2EE;
+          outline: none !important; }
       .main .body-sec .input_sec form input[type="number"] {
         text-align: center;
         font-size: 50px;
         background-color: #2F2F2F;
         height: 157px; }
+        .main .body-sec .input_sec form input[type="number"]:focus {
+          border: 2px solid transparent !important;
+          border-image: linear-gradient(to right, #EE4878 100%, #7248EE 100%) !important;
+          border-image-slice: 1 !important;
+          color: #48B2EE;
+          outline: none !important; }
       .main .body-sec .input_sec form input[type="number"]::placeholder {
         text-align: center;
         font-size: 18px; }
