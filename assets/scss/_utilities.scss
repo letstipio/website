@@ -22,12 +22,24 @@ a{
 .text_low_color{
     color: rgba(230, 219, 219, 0.849);
 }
+
+// button style 
 .btn_gradient{
     width: 104px;
     height: 33px;
     cursor: pointer;
     @include border-radios(5px);
     background: $btn-bg-color;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn_dark_color{
+    width: 104px;
+    height: 33px;
+    cursor: pointer;
+    @include border-radios(5px);
+    background: #2d2d2d;
     color: #fff;
     font-size: 15px;
 }
