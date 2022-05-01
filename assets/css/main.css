@@ -342,6 +342,8 @@ a {
       -ms-border-radius: 8px;
       -o-border-radius: 8px;
       font-size: 32px; }
+      .main .payment_method button a {
+        color: #fff; }
   .main .team_profile {
     text-align: center; }
     .main .team_profile h2 {

@@ -263,7 +263,7 @@
         }
     }
 
-    // home page style 
+    // home page style
     .page_intro{
         width: 100%;
         height: auto;
@@ -343,6 +343,9 @@
             height: 120px;
             @include border-radios(8px);
             font-size: 32px;
+            a {
+                color: #fff;
+            }
         }
     }
     .team_profile{
